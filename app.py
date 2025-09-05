@@ -68,7 +68,7 @@ KEYWORDS = [
 
 # === Load PDFs ===
 # Note: The original PDF paths are assumed to contain relevant medical content.
-PDF_PATH = os.environ.get("PDF_PATH", "healthcare_basics.pdf")
+PDF_PATH = os.environ.get("PDF_PATH", "Healthcare_basics.pdf")
 PDF_PATH_2 = os.environ.get("PDF_PATH_2", "diseases_and_treatments.pdf")
 
 def load_pdf_text(path):
